@@ -1,0 +1,170 @@
+/* body */
+body{
+    margin: 0;padding: 0;
+    font-family: 'Montserrat', "Ubuntu";
+
+}
+
+/* front wallaper */
+.frontWallaper{
+    position: relative;
+    text-align: center;
+}
+.frontWallaper img{
+    min-width: 100%;
+    opacity: 0.6;
+    margin-bottom: 0%;
+}
+.frontWallaper img:hover{
+    opacity: 0.6;
+}
+.frontContent{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.frontContent h1{
+    color: crimson;
+}
+.frontContent h2{
+    color: darkmagenta;
+}
+.btn2{
+    width: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: lightblue;
+    margin: 0 5% 0 5%;
+}
+.lft{
+    float: right;
+    position: absolute;
+    z-index: 3;
+}
+/* navbar */
+.imgNav{
+    float: left;
+    margin: 0px;padding: 0;
+    position: relative;
+    top:-5px;
+    left: -10px;
+    width: 20px;
+}
+.navbar{
+    height: 30px;
+    background-color: rgb(92, 88, 88);
+    margin: -0.5% 0 2%;
+    padding: 2%;
+}
+
+
+a{
+    font-size: larger;
+    color: aqua;
+    padding: 2.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    float: right;
+    margin-left: 2%;
+    padding: 0 5px 5px 0;
+    font-size: large;
+}
+/* content */
+
+.content{
+    margin-bottom: 2%;
+    margin: 2px;
+    padding: 2px;
+}
+
+
+/* images */
+.imgages{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    align-items: center;
+    opacity: 1;
+}
+img:hover{
+    opacity: 0.5;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .flex-container >div >img{
+    height: 200px;
+    padding: 0% 15% 2%;
+} 
+.ig1{
+    padding: 2%;
+    height: 250px;
+}
+
+/* menu */
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.litti{
+    width: 280px;
+    background-color: antiquewhite;
+    margin: 0 4px 8px;
+    padding: 5px;
+}
+.kachori{
+    width: 280px;
+    background-color: antiquewhite;
+    margin: 0 4px 8px;
+    padding: 5px;
+}
+.cholebatore{
+    width: 280px;
+    background-color: antiquewhite;
+    margin: 0 4px 8px;
+    padding: 5px;
+}
+h3{
+    color: rgb(223, 51, 20);
+}
+
+/* order */
+.order{
+    margin-top: 5%;
+    padding-left: 35%;
+    align-items: center;
+}
+.btn{
+    width: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    border-radius: 10%;
+    margin: 0 5% 0 5%;
+}
+.orderimg img{
+    padding: 0 5% 5% 0;
+    margin: 5% 5% 5% 0;
+}
+/* footer */
+
+
+.contacts{
+    margin-top: 5%;
+    align-items: center;
+    text-align: center;
+    margin-left: -5%;
+    
+}
+i{
+    padding: 1% 1% 1% 0.5%;
+}
+  
+  
