@@ -59,7 +59,7 @@ body{
 
 
 a{
-    font-size: larger;
+    font-size: medium;
     color: aqua;
     padding: 2.5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -164,7 +164,7 @@ h3{
     
 }
 i{
-    padding: 1% 1% 1% 0.5%;
+    padding: 1% 1.5% 1.5% 0.5%;
 }
   
   
